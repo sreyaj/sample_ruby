@@ -8,5 +8,5 @@ env:
 notifications:
      email:
          recipients:
-             - exampleone@org.com
+             - vidya@shippable.com  
              - exampletwo@org.com
