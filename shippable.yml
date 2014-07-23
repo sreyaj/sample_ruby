@@ -3,6 +3,6 @@ rvm:
  # - 1.9.3
   #- 1.8.7
   #- 2.1.0
-   - jruby-1.7.12
+   - jruby-head
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
