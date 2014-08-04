@@ -7,5 +7,5 @@ rvm:
   - 2.1.2
   - jruby-head
   # - 1.9.2
-env
+env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
