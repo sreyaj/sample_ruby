@@ -2,6 +2,6 @@ language: ruby
 
 rvm:
   - jruby-head
- # - rbx-2
+  - rbx-2
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
