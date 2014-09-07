@@ -2,7 +2,7 @@ language: ruby
 
 
 rvm:
-  - jruby-head
+  - 1.9.3
  # - rbx-2
 
 env:
