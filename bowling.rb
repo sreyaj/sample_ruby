@@ -4,9 +4,8 @@ class Bowling
 
   def score
     0
-  end
 end
-def initialize category
+def category
            @category = category1
         end
 end
