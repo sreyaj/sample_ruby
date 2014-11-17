@@ -6,6 +6,9 @@ class Bowling
     0
 end
 def category
-           @category = category1
+           @category 
+        end
+def title
+           @title = title
         end
 end
