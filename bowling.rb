@@ -6,3 +6,7 @@ class Bowling
     0
   end
 end
+def initialize category
+           @category = category1
+        end
+end
