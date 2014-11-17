@@ -8,3 +8,9 @@ describe Bowling, "#score" do
     bowling.score.should eq(0)
   end
 end
+describe Bowling, "#category" do
+   it "returns the correct category" do
+  bowling = Bowling.new
+  bowling.category.should eql "category"
+   end
+end
