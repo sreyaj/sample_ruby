@@ -1,7 +1,7 @@
 language: ruby
 
 rvm:
-  - jruby-head
+  - 1.9.3
 
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
