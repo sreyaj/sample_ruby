@@ -14,3 +14,9 @@ describe Bowling, "#category" do
   bowling.category.should eql "category"
    end
 end
+describe Bowling, "#title" do
+   it "returns the correct title" do
+  bowling = Bowling.new
+  bowling.category.should eql "title"
+   end
+end
