@@ -12,7 +12,7 @@ describe Bowling, "#category" do
    it "returns the correct category" do
   bowling = Bowling.new
   20.times { bowling.hit(0) }
-  bowling.category.should eql(1)
+  bowling.category.should eql(2)
    end
 end
 describe Bowling, "#title" do
