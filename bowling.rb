@@ -6,9 +6,9 @@ class Bowling
     0
 end
 def category
-           category1 
+           1 
         end
 def title
-        title1
+        2
         end
 end
