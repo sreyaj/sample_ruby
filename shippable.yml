@@ -22,6 +22,6 @@ notifications:
          recipients:
              - vidya@shippable.com
              - vidyac.raghav@gmail.com
-         on_success: always
+         on_success: change
          on_failure: always
 #cache: true 
