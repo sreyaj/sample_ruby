@@ -30,4 +30,4 @@ before_install:
   - rvm use $SHIPPABLE_RUBY || rvm install $SHIPPABLE_RUBY
 
 install: bundle install
-build_image: shippable/minv2:beta
+build_image: shippable/minv2
