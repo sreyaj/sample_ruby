@@ -1,8 +1,13 @@
 language: ruby
 
 rvm:
-  - 1.9.3
+  - 2.2
   - ree
+  - jruby-19mode
+ # - rbx
+  #- ree
+  #- ruby-head
+  - jruby-head
 
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
