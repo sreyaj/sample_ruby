@@ -1,6 +1,7 @@
 language: ruby
 
 rvm:
+  - 2.2.0
   - 1.8.7
   - 1.9.2
   - 1.9.3
@@ -24,4 +25,9 @@ notifications:
              - vidyac.raghav@gmail.com
          on_success: change
          on_failure: always
-#cache: true 
+before_install:
+  - source /home/shippable/.rvm/scripts/rvm
+  - rvm use $SHIPPABLE_RUBY || rvm install $SHIPPABLE_RUBY
+
+install: bundle install
+build_image: shippable/minv2:beta
