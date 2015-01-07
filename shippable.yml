@@ -6,3 +6,11 @@ rvm:
 
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+build_image: shippable/minv2:beta
+
+
+before_install:
+  - source /home/shippable/.rvm/scripts/rvm
+  - rvm use $SHIPPABLE_RUBY || rvm install $SHIPPABLE_RUBY
+
+install: bundle install
