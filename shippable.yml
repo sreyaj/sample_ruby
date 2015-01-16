@@ -1,13 +1,15 @@
 language: ruby
 
 rvm:
+  - 2.1.1
+  - 2.1.2
   - 2.2
-  - ree
-  - jruby-19mode
+ # - ree
+ # - jruby-19mode
  # - rbx
   #- ree
   #- ruby-head
-  - jruby-head
+#  - jruby-head
 
 
 env:
