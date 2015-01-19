@@ -18,12 +18,12 @@ env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
 
-build_image: shippable/minv2:beta
+#build_image: shippable/minv2:beta
 
 
 before_install:
   #- source /home/shippable/.rvm/scripts/rvm
-  - source ~/.rvm/scripts/rvm && rvm use 2.1.0
+  - source ~/.rvm/scripts/rvm && rvm use 2.2.0
   #- rvm use 2.0.0
 #  - rvm use jruby
  # - rvm use $SHIPPABLE_RUBY || rvm install $SHIPPABLE_RUBY
