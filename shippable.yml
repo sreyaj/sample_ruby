@@ -18,7 +18,8 @@ env:
 
 
 before_install:
-  - source /home/shippable/.rvm/scripts/rvm
+  #- source /home/shippable/.rvm/scripts/rvm
+  - source ~/.rvm/scripts/rvm && rvm use 1.9.3
   - rvm use $SHIPPABLE_RUBY || rvm install $SHIPPABLE_RUBY
 
 install: bundle install
