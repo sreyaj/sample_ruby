@@ -15,9 +15,11 @@ rvm:
   - ruby-head
   - jruby-head
   - ree
+
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 archive: true
+
 notifications:
      email:
          recipients:
