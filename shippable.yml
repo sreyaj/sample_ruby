@@ -1,17 +1,17 @@
 language: ruby
 
 
-rvm:
+#rvm:
  # - 2.0.0
  # - 2.0.0
-  - 2.1.0
+ # - 2.1.0
 #  - 2.2
  # - ree
  # - jruby-19mode
  # - rbx
   #- ree
   #- ruby-head
-  - jruby-head
+  #- jruby-head
 
 
 env:
