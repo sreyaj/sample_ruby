@@ -18,6 +18,7 @@ rvm:
 
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+
 archive: true
 
 notifications:
