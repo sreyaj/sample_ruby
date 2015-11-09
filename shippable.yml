@@ -23,7 +23,7 @@ env:
 
 
 before_install:
-  - shippable_retry 'if [ $i -eq 3 ]; then echo "done"; else foobar$i; fi'
+  - travis_retry 'if [ $i -eq 3 ]; then echo "done"; else foobar$i; fi'
   #- source /home/shippable/.rvm/scripts/rvm
   #- source ~/.rvm/scripts/rvm && rvm use 1.8.7
   # - rvm use 2.2.0
