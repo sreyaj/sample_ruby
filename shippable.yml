@@ -1,5 +1,7 @@
 language: ruby
 
+build_image: drydock/u12rub:tip
+
 rvm:
   - 2.2.0
   - 1.8.7
