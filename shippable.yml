@@ -21,11 +21,12 @@ env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 integrations:
   notifications:
-    email:
+    - integrationName: email
+      type: email
       recipients:
         - sreya@shippable.com
-      on_success: change
-      on_failure: always
+      on_success: always
+
 
 
 #build_image: shippable/minv2:beta
