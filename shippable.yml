@@ -28,5 +28,5 @@ integrations:
       on_success: always
 
 
-   
+    
 #build_image: shippable/minv2:beta
