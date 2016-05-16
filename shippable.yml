@@ -25,7 +25,7 @@ integrations:
       type: email
       recipients:
         - sreya@shippable.com
-      on_success: always
+      on_success: always               
 
 
     
