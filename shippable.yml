@@ -19,13 +19,15 @@ rvm:
 
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-integrations:
-  notifications:
-    - integrationName: email
-      type: email
-      recipients:
-        - sreya@shippable.com
-      on_success: always               
-
-
+integrations:    
+  notifications:    
+       
+    - integrationName: email         
+      type: email        
+      recipients: 
+        - shiptest.rc.ow@gmail.com
+        - shiptest.rc.me@gmail.com
+      on_start: always
+      on_success: always 
+      on_failure: always 
       
